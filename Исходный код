@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <iomanip> 
 using namespace std;
 
 int main() {
@@ -19,12 +19,14 @@ int main() {
     double MaxAB = max(fabs(a), fabs(b));
     double MinAB = min(fabs(a), fabs(b));
     double РазностьMaxMin = MaxAB - MinAB;
+    double частное = a / b; 
 
     cout << "1. Сумма: " << сумма << endl;
     cout << "2. Разность: " << разность << endl;
     cout << "3. Произведение: " << произведение << endl;
     cout << "4. Среднее арифметическое: " << СредАрифм << endl;
     cout << "5. Разность максимального и минимального по модулю: " << РазностьMaxMin << endl;
+    cout << "6. Частное: " << fixed << setprecision(2) << частное << endl; // Вывод частного с точностью до сотых
 
     return 0;
 }
