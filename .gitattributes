@@ -1,2 +1,30 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+    double a, b;
+
+    cout << "Введите первое число (a): ";
+    cin >> a;
+
+    cout << "Введите второе число (b): ";
+    cin >> b;
+
+    double сумма = a + b;
+    double разность = a - b;
+    double произведение = a * b;
+    double СредАрифм = (a + b) / 2.0;
+    double MaxAB = max(fabs(a), fabs(b));
+    double MinAB = min(fabs(a), fabs(b));
+    double РазностьMaxMin = MaxAB - MinAB;
+
+    cout << "1. Сумма: " << сумма << endl;
+    cout << "2. Разность: " << разность << endl;
+    cout << "3. Произведение: " << произведение << endl;
+    cout << "4. Среднее арифметическое: " << СредАрифм << endl;
+    cout << "5. Разность максимального и минимального по модулю: " << РазностьMaxMin << endl;
+
+    return 0;
+}
