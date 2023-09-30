@@ -27,4 +27,4 @@
 3. Результаты действий будут выведены на экран.
 
 ## Скриншоты тестов
-![Задание 1](https://drive.google.com/drive/folders/1iUKQh26b9okmn3x5Fp8HWeoYRtoBSGW7?usp=drive_link "Тест")
+![Задание 1](file:///C:/Users/MSI/Desktop/111111111.jpg "Тест")
